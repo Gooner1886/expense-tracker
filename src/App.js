@@ -13,7 +13,6 @@ function App() {
       );
 
       const data = await response.json();
-      
 
       const loadedExpenses = [];
       for (const key in data) {
@@ -59,11 +58,4 @@ function App() {
   );
 }
 
-/* return React.createElement(
-  "div",
-  {},
-  React.createElement("h2", {}, "Let's get started!"),
-  React.createElement(Expenses, {expenses: expenses})
-);
-} */
 export default App;
